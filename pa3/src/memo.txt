@@ -1,0 +1,14 @@
+1. Writing these programs was fairly hard at first, but when i took a step back to better understand the code base as a whole,
+and from there it got a little easier. I think the hardest part for me was part 3 because we had to rewrite chooseMove() to be able
+to work with the computer in Nim. I feel like this project gave me a more reinforcement and understanding of the concepts of recursion.
+I wouldn't say I am a recusion expert, but I do have a better understanding of it then before this project.
+
+2. There are 9 possible game states in Nim. Considering if everyone (including the computer) is taking the game by one star each possession,
+then there will be 9 possible states. If we are Considering the fact that the computer is only doing the best moves, then the most states that
+the game can have is 6 states assuming the human will only choose 1 star per possession.
+
+3. This means that the initial value position for Nim is that the they are most likely going to win due to that that they made the most
+optimal move.
+
+4. IF we do use dynamic programming  for Nim, then the Position class will have to include an array of the rows of board. If we have that,
+then we can iterate through it of them one by one and then see the data in side of it, and just keep track of the state of the gam, dynamically.

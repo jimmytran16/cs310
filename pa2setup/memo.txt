@@ -1,0 +1,14 @@
+1. Transfering HashMap1.java to HashMap2.java was fairly easy, all I had to do was find all of the methods that was not apart of the 
+Map interface and made it private. Also making all of the inner classes private. I had no issue there, when compiling HashMap2 and testing it on 
+TestMap.java. The hardest part for me was modifying HashMap2 into HashMap3. Using the JDK class LinkedList<> as a collision list was pretty hard
+because I had to translate all of the code from the initial inner Node class and make it compatible with the LinkedList<> JDK class's methods.
+
+2. The JDK documentation that helped me was the oracle one. I was able to see all of the methods in the Maps interface and cross reference it to the 
+code and was able to distinguish between which methods were not apart of the API and then made it private.
+3. The keySet() method is a view on the JDK HashMap because it returns back the set of keys that are contained in the hashmap.
+4.
+From the observation of the stats, it seems that it did hurt the performance by switching to LinkedList collision because 
+the time is slightly higher in HashMap4 compared to HashMap JDK. The JDK HashMap is definitely faster than the TreeMap JDK
+significantly. All cases for HashMap JDK deviation is approximately .500+ seconds faster then TreeMap JDK.
+
+

@@ -1,0 +1,30 @@
+CS310: Advanced Data Structures and Algorithms
+Homework 1
+
+Questions:
+1. 
+	a. 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512 + 1024 = 2046
+	b. 
+
+2. There are 100 + 1 = 101 binary digits in the numbers 2^100, 5^100 and 10^100. The answer to these three questions are related because they all have the same binary digits count.
+
+3. 
+	a. We can go by the log property -->  
+
+
+5. 
+	a. The big-O estimate for the running time is O(n*i) or O(n*n) which then concludes O(n^2). We consider i to be the size of n or greater in the worst case scenario. Therefore we can just say that n = i and so the outer and inner loop has n*i or n*n operations. So it is a quadratic 
+	 operation.
+
+	b. The outer loop will iterate n amounts of time, where as the inner loop will iterate n amount	of time also because 'i' will keep incrementing and the inner loop will stop iterating when the outer loop stops. Therefore, it is quadratic also, O(n^2). Big-O analysis is the same. 
+	
+
+	c. NOT DONE
+
+
+6.
+	a. NOT DONE
+	b. NOT DONE
+
+
+7. 

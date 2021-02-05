@@ -1,0 +1,9 @@
+From JFK/Umass to Bowdoin
+Red:(JFK/UMass,Andrew,Broadway,SouthStation,DowntownCrossing,ParkStreet,)
+Green:(ParkStreet,GovernmentCenter,)
+Blue:(GovernmentCenter,Bowdoin,)
+
+From JFK/Umass to Wonderland
+Red:(JFK/UMass,Andrew,Broadway,SouthStation,)
+Silver:(SouthStation,Courthouse,WorldTradeCtr,SilverLineWay,Airport,)
+Blue:(Airport,WoodIsland,OrientHeights,SuffolkDowns,Beachmont,RevereBeach,Wonderland,)

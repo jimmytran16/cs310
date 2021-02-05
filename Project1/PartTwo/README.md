@@ -1,0 +1,1 @@
+Hello professor I am going to be using 3 late days for part 2 of this project. I will be submitting it by midnight 10/18/2020. Thank you!

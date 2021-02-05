@@ -1,0 +1,54 @@
+1. I used VS Code to write and run my programs. I only developed and ran the programs on my computer locally, and also tested it on the cs.umb.edu server and it worked fine. I did not have any trouble running on linux at all.
+
+2. This would give me an O(N^2) which would be a quadratic run time. In my case, adding each of the Usage instances into the LineUsageData arrays will take me O(1) time, but traversing through the lines will take me
+O(N), N being the number of lines being proccessed. When it comes to printing out each terminal with it's frequent Usage, it will take O(N^2), because you can consider we have to traverse through the 
+LineUsageArray (which has the LineUsage intances that represent that terminal) which will take O(N), N being the size of the array, and within those array, we have to call the getHighestUserUsage(), which then will look for the frequent user. Within that getHighestUserUsage() function, we will 
+have to traverse through the container (in my case an array list) that is holding the Usage for that specific terminal, so it will also take O(N), N being the size of the users within that Terminal. Therefore, it is O(N * N) so O(N^2), hence it is 
+quadratic.
+
+3. 
+RESULTS FOR COMMAND LINE COMPILE AND RUN of BankAccount.java-->
+
+Account: 1
+BankAccount: 1, 3
+String: 3, 10
+_id: 3, 3
+amt: 5, 6
+bal: 3
+balance: 5, 7, 11
+class: 1
+deposit: 6
+getBalance: 7
+id: 3, 9
+implements: 1
+int: 3, 3, 5, 5, 6, 7, 9, 11
+name: 10
+nm: 3
+private: 9, 10, 11
+public: 1, 3, 5, 6, 7
+return: 5, 7
+void: 6
+withdraw: 5
+
+├── README.md
+├── bin
+│   └── cs310
+│       ├── JavaTokenizer.class
+│       ├── RegexTokenizer.class
+│       ├── TestTokenizer.class
+│       ├── Tokenizer.class
+│       ├── WTokenizer.class
+│       └── Xref.class
+├── memo.txt
+├── src
+│   └── cs310
+│       ├── BankAccount.java
+│       ├── JavaTokenizer.java
+│       ├── RegexTokenizer.java
+│       ├── TestTokenizer.java
+│       ├── WTokenizer.java
+│       └── Xref.java
+
+I used the bin file to test out my program and the src file to include my source codes.
+
+4. The MAX memory for the usage of both tokens will be O(N^2) because they will be iterating through each line of the file, and iterating through each word of the lines.

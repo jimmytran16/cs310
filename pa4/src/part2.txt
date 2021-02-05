@@ -1,0 +1,12 @@
+Blue: Wonderland, RevereBeach, Beachmont, SuffolkDowns, OrientHeights, WoodIsland, Airport, Maverick, Aquarium, State, GovernmentCenter, Bowdoin
+Green: Lechmere, SciencePark, NorthStation, Haymarket, GovernmentCenter, ParkStreet, Boylston, Arlington
+GreenB: Fordham(closed), HarvardAvenue, GriggsStreet/LongwoodAvenue, AllstonStreet, WarrenStreet, SummitAvenue, WashingtonStreet, MountHood(closed), SutherlandRoad, ChiswickRoad, ChestnutHillAvenue, SouthStreet, GreycliffRoad(closed), BostonCollege
+GreenC: ClevelandCircle, EnglewoodAvenue, DeanRoad, TappanStreet, WashingtonSquare, FairbanksStreet, BrandonHall, WinchesterStreet/SummitAv., CoolidgeCorner, St.PaulStreet_C, KentStreet, HawesStreet, St.MarysStreet, Kenmore, Hynes/ICA, Copley
+GreenD: Riverside, Woodland, Waban, Eliot, NewtonHighlands, NewtonCenter, ChesnutHill, Reservoir, Beaconsfield, BrooklineHills, BrooklineVillage, Longwood, Fenway, Kenmore, Hynes/ICA, Copley
+GreenE: HeathStreet, BackOfTheHill, Riverway, MissionPark, FenwoodRoad, BrighamCircle, LongwoodMedicalArea, MuseumofFineArts, NortheasternUniversity, Symphony, Prudential, Copley
+Mattapan: Mattapan, CapenStreet, ValleyRoad, CentralAvenue, Milton, ButlerStreet, CedarGrove, Ashmont
+Orange: OakGrove, Malden, Wellington, Assembly, SullivanSquare, CommunityCollege, NorthStation, Haymarket, State, DowntownCrossing, Chinatown, TuftsMedicalCenter, BackBay/SouthEnd, MassachusettsAvenue, Ruggles, RoxburyCrossing, JacksonSquare, StonyBrook, GreenStreet, ForestHills
+Red: Alewife, Davis, Porter, Harvard, Central, Kendall, Charles/MGH, ParkStreet, DowntownCrossing, SouthStation, Broadway, Andrew, JFK/UMass
+RedA: Ashmont, Shawmut, FieldsCorner, SavinHill
+RedB: Braintree, QuincyAdams, QuincyCenter, Wollaston, NorthQuincy
+Silver: Courthouse, WorldTradeCtr, SilverLineWay, Airport, EasternAve, BoxDistrict, BellinghamSq, Chelsea

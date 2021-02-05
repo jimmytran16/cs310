@@ -1,0 +1,21 @@
+1. Discuss your experiences in writing these programs.  What was the hardest part for you?  Do you think the book is useful on graphs?
+    This program was pretty easy to write in the beginning. Part one was very easy because all I had to do was encapsulate the methods that was used in the MetroGraph class, and just set it to
+    private. The second step was harder because I had to study the code base a little more to understand the overall proccess of how to do it. Because there was no vertex property inside of the 
+    Platform class, it made it harder to create the algorithm for displaying the train lines and its stations. I do think that the book was very useful with explaining the Graph and its functionalities.
+    But not fully, because I had to go online to search some things up.
+
+2. Discuss the shortcoming of the shortest path solution of step 3 here.
+    My shortcoming for the shortest path solution was trying to understand the BFS search algorithm at first hand because I have not reviewed it in a while. So I had to watch a few videos in order
+    to reinforce my concepts in it. Even though the book had a very good reference and example in the use case of BFS so it made it wasn't really relevant to our project, so it I had to go out of my way
+    to essentially play around with the BFS class and get a better grasp on it.
+
+3. Using our graph, find the cost of going from NorthQuincy to SavinHill, i.e. going in and out on different extensions of a split. Is this a proper cost based on what happens in real life? Discuss. Can you think of a way to set up the graph that would fix this modeling problem?
+
+4. Explain why the code in MetroGraph reads the input file twice. First summarize what it is doing on the two file readings. Could you rewrite it to read the file only once? Discuss.
+    The Metro graph has to first fill the graph in, and then it has to count the vertices, therefore it has to traverse through the input steam twice because an input stream can't be read more than once. In order for the file to read only once,
+    you have to store it inside another input stream object and using that to read it again.
+
+5. In MetroGraph, train line color is computed from the train line name and used to check edges for reasonableness. First explain exactly how this is done in that code. Then comment on the robustness of this computation. What if a new train line is added to the system named simply "Y"?
+    This method checks whether either the train line string is the same for the two platforms or at least the three first letters match for the platforms.
+    This code is robust in a sense that the current lines go as the shortest basic color is red and that has 3 letters.  If they adapt how the lines are named and make a line "Y" then this code will eventually fail.  It would crash the program since ckEdge does not catch exceptions and you cannot call substring 
+    with bounds that are shorter than the string you are calling substring on. It is robust as far as lines being created with names that are standard color, and not if you use a line with a string value that is less than 3.  
